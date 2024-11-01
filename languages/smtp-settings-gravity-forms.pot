@@ -1,0 +1,159 @@
+# Copyright (C) 2024 SMTP Settings for Gravity Forms
+# This file is distributed under the same license as the SMTP Settings for Gravity Forms package.
+msgid ""
+msgstr ""
+"Project-Id-Version: SMTP Settings for Gravity Forms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-30 13:58+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: source/work/common.php:23
+msgid "<h1>GravityForms Required</h1><p>This plugin requires GravityForms to be installed and activated.</p>"
+msgstr ""
+
+#: source/work/common.php:24
+msgid "Cannot Activate: GravityForms Required"
+msgstr ""
+
+#: source/work/common.php:35
+msgid "<h1>PHP To Low</h1><p>Due to the nature of this plugin, it cannot be run on lower versions of PHP.</p><p>Please contact your hosting provider to upgrade your site to at least version 7.3.</p>"
+msgstr ""
+
+#: source/work/common.php:36
+msgid "Cannot Activate: PHP To Low"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:49
+msgid "  <h1><span class=\"dashicons dashicons-dismiss\" style=\"padding-top:5px;\"></span> Whoops!</h1>"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:50
+msgid "  <p>Something went wrong with your setup.</p>"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:51
+msgid "  <p>Please make sure you have the latest GravityForms installed and activated.</p>"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:178
+msgid "There is no SMTP server configured, so there is no need to test."
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:166
+msgid "Your test was not sucessful."
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:162
+msgid "Your test was sucessful.  Do not forget to save your settings."
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:214
+msgid "SMTP Settings"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:292
+msgid "SMTP settings updated successfully."
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:298
+msgid "<h3><span><i class=\"fa fa-inbox\"></i></span> SMTP Settings</h3>"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:299
+msgid "<p>Configure your SMTP settings for this form below.  Leaving the HOST field blank will use the built-in Wordpress functionality, including any SMTP plugin you may have currently installed and active.</p>"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:357
+msgid "Debug SMTP?"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:359, source/work/inc/kp-gfsmtp-settings.php:367, source/work/inc/kp-gfsmtp-settings.php:417
+msgid "No"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:360, source/work/inc/kp-gfsmtp-settings.php:368, source/work/inc/kp-gfsmtp-settings.php:418
+msgid "Yes"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:365
+msgid "Force From Override?"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:369
+msgid "<strong>NOTE: </strong> Some providers like Office365, require the same From email address as is being used to send the email.<br />By default this plugin will not override the forms settings, check this to force it to."
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:373
+msgid "From Email Address: "
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:376
+msgid "Use this to override the form's sending address, if you have the above checked, it must match the SMTP User below.<br />If this is left blank and the Force is allowed, it will fall back to the site's configured admin email address."
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:381
+msgid "From Name: "
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:383, source/work/inc/kp-gfsmtp-settings.php:388
+msgid "Optional"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:386
+msgid "Reply-To Email Address: "
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:391
+msgid "SMTP Host: "
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:395
+msgid "Encryption Type: "
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:397
+msgid "None"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:398
+msgid "SSL"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:399
+msgid "STARTTLS"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:403
+msgid "SMTP Port: "
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:407
+msgid "SMTP Username: "
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:411
+msgid "SMTP Password: "
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:415
+msgid "Force Plain Text Emails?"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:419
+msgid "<strong>NOTE: </strong> This will force plaintext emails to be sent."
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:426
+msgid "Update SMTP Settings"
+msgstr ""
+
+#: source/work/inc/kp-gfsmtp-settings.php:428
+msgid "Test SMTP Settings"
+msgstr ""
